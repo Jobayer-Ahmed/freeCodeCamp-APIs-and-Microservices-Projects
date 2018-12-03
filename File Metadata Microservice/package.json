@@ -1,0 +1,23 @@
+{
+  "name": "file-metadata-microservices",
+  "version": "1.0.0",
+  "description": "freeCodeCamp's advance backend project.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "multer",
+    "nodejs",
+    "express",
+    "body-parser"
+  ],
+  "author": "Jobayer Ahmed Mickey",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "multer": "^1.4.1"
+  }
+}

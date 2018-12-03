@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>freeCodeCamp: File Metadata Services</title>
+    <style type="text/css">
+    	* {
+    		padding: 0;
+    		margin: 0;
+    		border: 0;
+    	}
+
+    	body {
+    		background-color: gray;
+    	}
+
+    	#wrapper {
+			width: 450px;
+			background-color: lightgray;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate3d(-50%, -50%, 0);
+			box-shadow: 5px 5px 7px 0px darkgray;
+    	}
+
+    	form {
+    		padding: 50px 0px;
+    		text-align: center;
+    	}
+
+    	form input {
+    		width: 70%;
+    		margin-right: 5%;
+    	}
+
+    	form button {
+    		padding: 8px 18px;
+    	}
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+    	<form action="http://localhost:3000/file" method="post" enctype="multipart/form-data">
+    		<input type="file" placeholder="Choose Your File" name="file">
+    		<button>Submit</button>
+    	</form>
+    </div>
+</body>
+</html>

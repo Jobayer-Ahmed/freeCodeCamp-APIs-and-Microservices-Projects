@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercies Tracker</title>
+	<style type="text/css">
+		.boxs {
+			width: 80%;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+		}
+		.box {
+			width: 50%;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="boxs">
+			<div class="box">
+				<form action="/route/register" method="POST">
+					<input type="text" name="name" placeholder="Username">
+					<br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div class="box">
+				<form action="/route/save" method="POST">
+					<input type="text" name="name" placeholder="Username">
+					<br>
+					<input type="text" name="desc" placeholder="Description">
+					<br>
+					<input type="number" name="duration" placeholder="Duration">
+					<br>
+					<input type="date" name="date" placeholder="Date">
+					<br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

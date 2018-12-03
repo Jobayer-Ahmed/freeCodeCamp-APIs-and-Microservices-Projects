@@ -1,0 +1,23 @@
+{
+  "name": "exercise-tracker",
+  "version": "1.0.0",
+  "description": "freeCodeCamp's Api and Microservices Projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "nodejs",
+    "mongodb",
+    "mongoose",
+    "reactjs"
+  ],
+  "author": "Jobayer Ahmed Mickey",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.14"
+  }
+}
